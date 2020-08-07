@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group
+		android:id="@+id/primary_nav"
+		android:checkableBehavior="single"
+		android:visible="true">
+		<item
+			android:id="@+id/menu_main_nav__whatsapp"
+			android:icon="@drawable/ic_whatsapp"
+			android:title="@string/whatsapp" />
+		<item
+			android:id="@+id/menu_main_nav__instagram"
+			android:icon="@drawable/ic_instagram"
+			android:title="@string/instagram"/>
+
+	</group>
+
+
+
+</menu>
